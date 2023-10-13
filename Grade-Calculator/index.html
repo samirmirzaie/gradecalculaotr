@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Grade Calculator</h1>
+    <hr />
+
+    <p>
+      Calculate your CS10 mark by entering your grades on the assignment
+      <span id="module">modules</span> below:
+    </p>
+    <hr />
+
+    <p>
+      Client-Side Scripting 1: <input type="number" id="client-in" value="0" />%
+    </p>
+    <p>
+      Structured Programming 1:
+      <input type="number" id="structure-in" value="0" />%
+    </p>
+    <p>
+      Structured Programming 2:
+      <input type="number" id="structure2-in" value="0" />%
+    </p>
+    <p>
+      Client-Side Scripting 2:
+      <input type="number" id="client2-in" value="0" />%
+    </p>
+    <p>Project A: <input type="number" id="project-in" value="0" />%</p>
+
+    <p><button id="btn">Calculate CS10 Grade</button></p>
+
+    <hr />
+
+    <p class="finalgrade">Final Grade = <span id="output">---</span></p>
+  </body>
+</html>
